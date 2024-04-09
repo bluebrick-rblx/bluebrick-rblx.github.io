@@ -16,12 +16,12 @@ a:hover {
 .beegtext {
     font-weight: bold;
     font-size: x-large;
-    text-align: center;
 }
 
 .container {
     width: 800px;
     min-height: 800px;
+    text-align: center;
 }
   
 .banner {

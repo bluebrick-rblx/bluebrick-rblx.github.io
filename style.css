@@ -45,5 +45,15 @@ a:hover {
     line-height: 2em;
     font-size: 18px;
     color: #FFF;
+}
 
+#friendliestfolk {
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #FFF;
+    height: 184px;
+    margin-top: 10px;
+    overflow: auto;
+    width: 770px;
 }

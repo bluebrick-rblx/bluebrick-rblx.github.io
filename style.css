@@ -16,6 +16,7 @@ a:hover {
 .beegtext {
     font-weight: bold;
     font-size: x-large;
+    text-align: center;
 }
 
 .container {
@@ -25,6 +26,7 @@ a:hover {
   
 .banner {
     height: 32px;
+    display: block;
     width: 100%;
 }
 
@@ -34,16 +36,12 @@ a:hover {
     width: 800px;
     font-size: 14px;
     text-align: center;
-    position: fixed;
     border-bottom: black 1px solid;
     border-left: black 1px solid;
     border-right: black 1px solid;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.links {
+.links,.links>a {
     line-height: 2em;
     font-size: 18px;
     color: #FFF;
